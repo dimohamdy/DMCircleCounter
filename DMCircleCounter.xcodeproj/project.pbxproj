@@ -14,6 +14,8 @@
 		3D63EFEA1B40AE1D00FCB43C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D63EFE91B40AE1D00FCB43C /* Images.xcassets */; };
 		3D63EFED1B40AE1D00FCB43C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D63EFEB1B40AE1D00FCB43C /* LaunchScreen.xib */; };
 		3D63EFF91B40AE1D00FCB43C /* DMCircleCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D63EFF81B40AE1D00FCB43C /* DMCircleCounterTests.m */; };
+		3D63F00D1B40AE7300FCB43C /* DMCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D63F00A1B40AE7300FCB43C /* DMCircleCounter.m */; };
+		3D63F00E1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D63F00C1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3D63EFF21B40AE1D00FCB43C /* DMCircleCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCircleCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D63EFF71B40AE1D00FCB43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D63EFF81B40AE1D00FCB43C /* DMCircleCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCircleCounterTests.m; sourceTree = "<group>"; };
+		3D63F0091B40AE7300FCB43C /* DMCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCircleCounter.h; sourceTree = "<group>"; };
+		3D63F00A1B40AE7300FCB43C /* DMCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCircleCounter.m; sourceTree = "<group>"; };
+		3D63F00B1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCircleCounterWithOutSegment.h; sourceTree = "<group>"; };
+		3D63F00C1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCircleCounterWithOutSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		3D63EFDB1B40AE1D00FCB43C /* DMCircleCounter */ = {
 			isa = PBXGroup;
 			children = (
+				3D63F0081B40AE7300FCB43C /* Classes */,
 				3D63EFE01B40AE1D00FCB43C /* AppDelegate.h */,
 				3D63EFE11B40AE1D00FCB43C /* AppDelegate.m */,
 				3D63EFE31B40AE1D00FCB43C /* ViewController.h */,
@@ -117,6 +124,17 @@
 				3D63EFF71B40AE1D00FCB43C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D63F0081B40AE7300FCB43C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D63F0091B40AE7300FCB43C /* DMCircleCounter.h */,
+				3D63F00A1B40AE7300FCB43C /* DMCircleCounter.m */,
+				3D63F00B1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.h */,
+				3D63F00C1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D63EFE51B40AE1D00FCB43C /* ViewController.m in Sources */,
+				3D63F00E1B40AE7300FCB43C /* DMCircleCounterWithOutSegment.m in Sources */,
 				3D63EFE21B40AE1D00FCB43C /* AppDelegate.m in Sources */,
 				3D63EFDF1B40AE1D00FCB43C /* main.m in Sources */,
+				3D63F00D1B40AE7300FCB43C /* DMCircleCounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
