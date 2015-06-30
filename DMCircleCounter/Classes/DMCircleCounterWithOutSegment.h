@@ -10,5 +10,4 @@
 
 @interface DMCircleCounterWithOutSegment : DMCircleCounter
 @property (nonatomic) float segment;
--(void)resetView;
 @end

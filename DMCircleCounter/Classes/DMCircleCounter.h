@@ -34,7 +34,6 @@
  * After reset is called, didStart, isRunning, and didFinish will all be NO.
  * You may start the timer again with startWithSeconds:.
  */
-- (void)reset;
 
 -(void)countOfSegment:(float)counter;
 
