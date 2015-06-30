@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DMCircleCounter"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Beautiful Circle Counter."
   s.description      = <<-DESC
                        Beautiful Circle Counter that inspire from athkar App in App store.
