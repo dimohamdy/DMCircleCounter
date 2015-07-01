@@ -47,7 +47,6 @@
     [plusOneButton setTitle: countString forState: UIControlStateDisabled];
     
     float value = (1.0 / [countOfthikr.text intValue]);
-    progresCount.segment = value;
     if (count == 1.0) {
         [progresCount resetView];
         count = 0.0;
@@ -71,6 +70,9 @@
 
 
 - (IBAction)applyCont:(id)sender {
+    count = 0.0;
+    [progresCount resetView];
+    [circleCounter resetView];
     [circleCounter countOfSegment:[countOfthikr.text intValue]];
     //[progresCount countOfSegment:[countOfthikr.text intValue]];
 }

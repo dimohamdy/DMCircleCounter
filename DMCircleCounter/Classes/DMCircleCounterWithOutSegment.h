@@ -9,5 +9,4 @@
 #import "DMCircleCounter.h"
 
 @interface DMCircleCounterWithOutSegment : DMCircleCounter
-@property (nonatomic) float segment;
 @end
